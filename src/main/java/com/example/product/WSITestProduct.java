@@ -12,4 +12,12 @@ public class WSITestProduct {
         this.name = name;
         this.id = id;
     }
+
+    @Override
+    public String toString() {
+        return "WSITestProduct{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
